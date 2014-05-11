@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <!--<servlet>-->
+        <!--<servlet-name>IndexServlet</servlet-name>-->
+        <!--<servlet-class>serv.IndexServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet>-->
+        <!--<servlet-name>AddServlet</servlet-name>-->
+        <!--<servlet-class>serv.AddServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>IndexServlet</servlet-name>-->
+        <!--<url-pattern>/index</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>AddServlet</servlet-name>-->
+        <!--<url-pattern>/add</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>serv.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegistrServlet</servlet-name>
+        <servlet-class>serv.RegistrServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistrServlet</servlet-name>
+        <url-pattern>/registr</url-pattern>
+    </servlet-mapping>
+</web-app>
