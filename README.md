@@ -1,4 +1,0 @@
-forum
-=====
-
-Forum Egorchev
